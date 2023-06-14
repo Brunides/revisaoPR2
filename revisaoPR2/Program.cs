@@ -55,17 +55,17 @@ namespace ConsoleApp10
             vet2 = new int[20000];
             Random rand = new Random();
 
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 20000; i++)
             {
 
 
-                vet2[i] = rand.Next(1, 1000);
+                vet2[i] = rand.Next(1, 20000);
 
             }
             Console.WriteLine("digite um número: ");
             n = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 20000; i++)
             {
                 if (n == vet2[i])
                 {

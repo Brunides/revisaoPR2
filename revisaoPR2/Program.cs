@@ -162,39 +162,7 @@ namespace ConsoleApp10
         }
         public static void Exercicio5()
         {
-            Console.WriteLine("here ex5 will be encoded");
-
-            int[] vet2;
-            int t, somai = 0, somap = 0;
-
-            Console.WriteLine("entre com o tamanho");
-            t = int.Parse(Console.ReadLine());
-            vet2 = new int[t];
-            Random rand = new Random();
-
-            for (int i = 0; i < t; i++)
-            {
-
-
-                vet2[i] = rand.Next(1, 1000);
-
-            }
-
-            for (int i = 0; i < t; i++)
-            {
-
-                if (vet2[i] % 2 == 0)
-                {
-                    somai++;
-                }
-                else
-                {
-                    somap++;
-                }
-
-            }
-
-            Console.WriteLine("neste vetor temos :" + somai + " numeros pares e : " + somap + "numeros impares");
+           
 
 
 
